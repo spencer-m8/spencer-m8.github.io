@@ -1,7 +1,22 @@
 h1 {
-    color : rgb(118, 34, 97)
+    color : rgb(255, 101, 255);
+    font-size: 40px;
+    font-family : Helvetica, sans-serif;
+    background-color : rgba(167, 66, 255, 0.495);
 }
 
 h2{
-    color : rgba(6, 73, 10, 0.766)
+    color : rgba(170, 204, 0, 0.766);
+    font-family: 'Helvetica', sans-serif;
+}
+
+p{
+    color : rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif, monospace;
+}
+
+.response{
+    color : rgb(0, 0, 0);
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif, monospace;
 }
