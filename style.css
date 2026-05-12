@@ -6,7 +6,7 @@ h1 {
 }
 
 h2{
-    color : rgba(170, 204, 0, 0.766);
+    color : rgba(170, 204, 0, 1);
     font-family: 'Helvetica', sans-serif;
 }
 
@@ -19,4 +19,25 @@ p{
     color : rgb(0, 0, 0);
     font-size: small;
     font-family: 'Times New Roman', Times, serif, monospace;
+}
+
+@-webkit-keyframes rainbow {
+    0% {color: red;}
+    14% {color: orange;}
+    28% {color: yellow;}
+    42% {color: green;}
+    56% {color: blue;}
+    70% {color: indigo;}
+    84% {color: violet;}
+    100% {color: red;}
+}
+
+@-webkit-keyframes big {
+    from {font-size: 40px;}
+    to {font-size: 1000px;}
+}
+
+.rainbow-text {
+    animation: big 4s linear infinite;
+    animation: rainbow 5s linear infinite;
 }
