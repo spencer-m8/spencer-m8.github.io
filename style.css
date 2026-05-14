@@ -34,10 +34,10 @@ p{
 
 @-webkit-keyframes big {
     from {font-size: 40px;}
-    to {font-size: 1000px;}
+    50% {font-size: 1000px;}
+    to {font-size: 40px;}
 }
 
 .rainbow-text {
-    animation: big 4s linear infinite;
-    animation: rainbow 5s linear infinite;
+    animation: big 4s linear infinite, rainbow 5s linear infinite;
 }
