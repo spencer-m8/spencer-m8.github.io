@@ -15,6 +15,12 @@ p{
     font-family: 'Times New Roman', Times, serif, monospace;
 }
 
+/*
+I think I want to have a class for responses, but unsure about font
+!!! find another font, is it really gonna be helvetica..
+be real
+*/
+
 .response{
     color : rgb(0, 0, 0);
     font-size: small;
